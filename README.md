@@ -2,8 +2,8 @@
 
 ```sql
 CREATE TABLE elected_leader (
-    id text,
-    last_seen_active int
+    id TEXT,
+    last_seen_active INT
 )
 
 #You are elected if this SQL returns 1 and slave if it returns 0
