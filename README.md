@@ -1,4 +1,6 @@
-# Leader election
+# DYI
+
+## Leader election
 Leader election for distributed work can be done by synchronzing them on the database.
 
 ```sql
