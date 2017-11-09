@@ -16,4 +16,4 @@ CREATE TABLE elected_leader (
 UPDATE elected_leader SET id='your_node_id', last_seen_active=strftime('%s', 'now') 
 WHERE last_seen_active<strftime('%s', 'now')-30 OR id='your_node_id';
 ```
-Next, whenever you do work you need to ensure you are still the leader when performing the task. This is the hardest part and is left as an exersize to the reader. Remember: Latency in distributed systems is NOT your friend.
+Next, whenever you do work you need to ensure you are still the leader when performing the task. This is the hardest part and is left as an exersice to the reader. Remember: Latency in distributed systems is NOT your friend.
